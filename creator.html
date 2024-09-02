@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMTRACK</title>
+    <link rel="stylesheet" href="creatorStyle.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">GYMTRACK</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="learn.html">LEARN MORE</a></li>
+                <li><a href="creator.html">CREATOR BIO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="create">
+        <img src="images/WhatsApp Image 2024-01-22 at 10.11.05.jpeg" alt="">
+        <div class="info">
+            <h1>Kenneth Bal: Creator of <span>GYMTRACK</span></h1>
+            <p>An incredibly handsome young man, with great ambitions</p>   
+        </div>
+        
+    </div>
+
+    <div class="quote">
+        <h1>There is no secret ingredient. It's just you.</h1>
+        <p>- Kung Fu Panda</p>
+    </div>
+    <footer>
+        <div class="sitemap">
+        <div class="logo">
+            <a href="#">GYMTRACK</a>
+        </div>
+        <div class="footerLine"></div>
+        <ul class="footer-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="learn.html">LEARN MORE</a></li>
+            <li><a href="creator.html">CREATOR BIO</a></li>
+        </ul>    
+        </div>
+        <p class="footerText">This page was developed for the final project of Kenneth Bal.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+</html>

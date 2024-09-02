@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMTRACK</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">GYMTRACK</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="learn.html">LEARN MORE</a></li>
+                <li><a href="creator.html">CREATOR BIO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <h1 class="title">Empowering Your Fitness Journey with Intelligence and Simplicity</h1>
+        <p class="subtext">Discover the future of fitness with GYMTRACK, where cutting-edge AI meets a user-friendly experience. Elevate your workouts with a personalized touch, and track your progress like never before.</p>
+    </div>
+    
+    <div class="features">
+        <div class="point">
+            <h3 class="featureTitle">Personalized Workouts</h3>
+            <div class="line"></div>
+            <p class="featureText">Harness the power of AI to craft workouts tailored to your goals and experience level. GYMTRACK provides customized plans that evolve as you do, ensuring you’re always on the right path.</p>
+        </div>
+        <div class="point">
+            <h3 class="featureTitle">Modern Dark Mode</h3>
+            <div class="line"></div>
+            <p class="featureText">Dive into a sleek, contemporary interface that’s as visually appealing as it is functional. Our modern dark mode ensures your focus remains on your workout, with a design that’s easy on the eyes.</p>
+        </div>
+        <div class="point">
+            <h3 class="featureTitle">Seamless Tracking</h3>
+            <div class="line"></div>
+            <p class="featureText">Keep tabs on every aspect of your fitness journey with GYMTRACK's intuitive tracking features. From reps to records, visualize your progress with clear, concise data that motivates and informs.</p>
+        </div>
+    </div>
+    
+    <div class="why">
+        <h2 class="titleWHY">Why choose <span>GYMTRACK</span>?</h2>
+        <div class="contentWHY">
+            <img src="images/Iphone14Pro_Mockup01_MicroVolume.png" alt="">
+            <p>Embrace a new era of fitness tracking with GYMTRACK. Our app offers a streamlined experience with a focus on simplicity, a modern dark mode for a stylish interface, and AI-driven personalization to meet your unique fitness needs. GYMTRACK isn’t just about tracking your workouts; it’s about optimizing them, providing you with insights and guidance that help you achieve your goals faster and smarter. Join a community that’s as committed to growth as you are, and experience the future of fitness today.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="sitemap">
+        <div class="logo">
+            <a href="#">GYMTRACK</a>
+        </div>
+        <div class="footerLine"></div>
+        <ul class="footer-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="learn.html">LEARN MORE</a></li>
+            <li><a href="creator.html">CREATOR BIO</a></li>
+        </ul>    
+        </div>
+        <p class="footerText">This page was developed for the final project of Kenneth Bal.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+</html>

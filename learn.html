@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMTRACK</title>
+    <link rel="stylesheet" href="learnStyle.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">GYMTRACK</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="learn.html">LEARN MORE</a></li>
+                <li><a href="creator.html">CREATOR BIO</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="learnTITLE">
+            <p>Discover more about how <span>GYMTRACK</span> came to be.</p>
+            <img src="images/iPhone14ProMax_05_FREE.png" alt="">
+        </div>
+    
+        <p class="learnTEXT">GYMTRACK was developed with the goal of revolutionizing the workout tracking space. Born out of extensive research, user feedback, and a passion for fitness, GYMTRACK is designed to meet the demands of modern athletes and beginners alike. Whether you’re looking to break personal records or maintain a healthy lifestyle, GYMTRACK provides the tools and support you need to succeed.</p>
+    
+    <footer>
+        <div class="sitemap">
+        <div class="logo">
+            <a href="#">GYMTRACK</a>
+        </div>
+        <div class="footerLine"></div>
+        <ul class="footer-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="learn.html">LEARN MORE</a></li>
+            <li><a href="creator.html">CREATOR BIO</a></li>
+        </ul>    
+        </div>
+        <p class="footerText">This page was developed for the final project of Kenneth Bal.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+</html>
